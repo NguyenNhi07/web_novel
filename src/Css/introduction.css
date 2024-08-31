@@ -1,0 +1,13 @@
+.grid-line {
+  background-image: linear-gradient(
+    rgba(143, 183, 255, 0.47) 1px,
+    transparent 1px
+  );
+
+  background-size: 32px 32px;
+}
+
+.content {
+  background-image: url("../../public/Group-6.png");
+  background-repeat: no-repeat;
+}

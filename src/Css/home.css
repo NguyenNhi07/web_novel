@@ -1,0 +1,6 @@
+.body-content {
+  background-image: url("../../public/bg-img.jpg");
+  background-size: cover; /* Làm cho hình nền phủ kín toàn bộ phần tử */
+  background-position: center; /* Căn giữa hình nền */
+  background-repeat: no-repeat; /* Ngăn hình nền lặp lại */
+}
