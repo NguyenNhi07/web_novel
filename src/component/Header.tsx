@@ -103,7 +103,7 @@ function Header() {
           />
         </div>
         <div className="w-full text-center text-8xl text-[#731C81] font-medium mb-[65px]">
-          Phong Hoa Tuyết Nguyệt jbjbkniknki
+          Phong Hoa Tuyết Nguyệt
         </div>
       </div>
     </>
