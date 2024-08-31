@@ -11,7 +11,7 @@ function SideBar() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/tags")
+      .get("http://localhost:5000/tags")
       .then((response) => {
         setTags(response.data);
       })
