@@ -4,12 +4,12 @@
 
 body {
   margin: 0;
+  font-family: "Lato", "Helvetica Neue", helvetica, arial, sans-serif;
   font-family: "Alegreya", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Alegreya", serif;
 }

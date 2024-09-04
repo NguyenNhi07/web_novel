@@ -3,8 +3,12 @@ import { useNavigate } from "react-router-dom";
 
 function Header() {
   const [review, setReview] = useState<boolean>(false);
+  const [novelRead, setNovelRead] = useState<boolean>(false);
 
   const navigate = useNavigate();
+  const navigateBackHome = () => {
+    navigate("/home");
+  };
   const navigateListNovel = () => {
     navigate("/list-truyen");
   };
@@ -28,25 +32,28 @@ function Header() {
     <>
       <div>
         <div className="bg-white shadow-[1px_1px_1px_rgba(0,0,0,0.2)] w-full text-center">
-          <button className="py-3 px-4 text-[#2790B0] text-sm">
+          <button
+            onClick={() => navigateBackHome()}
+            className="py-3 px-4 text-[#2790B0] text-sm hover:text-[#5e6f71]"
+          >
             Trang chủ{" "}
           </button>
           <button
             onClick={() => navigateListNovel()}
-            className="py-3 px-4 text-[#2790B0] text-sm"
+            className="py-3 px-4 text-[#2790B0] text-sm hover:text-[#5e6f71]"
           >
             List truyện
           </button>
           <button
             onClick={() => navigateListFilml()}
-            className="py-3 px-4 text-[#2790B0] text-sm"
+            className="py-3 px-4 text-[#2790B0] text-sm hover:text-[#5e6f71]"
           >
             List phim
           </button>
           <button
             onMouseEnter={() => setReview(true)}
             onMouseLeave={() => setReview(false)}
-            className="py-3 px-4 text-[#2790B0] text-sm relative"
+            className="py-3 px-4 text-[#2790B0] text-sm relative hover:text-[#5e6f71]"
           >
             <div className="flex items-center gap-2">
               Review{" "}
@@ -65,18 +72,31 @@ function Header() {
                 />
               </svg>
             </div>
+            {review && (
+              <div className="absolute top-[44px] flex z-50">
+                <div className="rotate-45 bg-[#145A70] w-3 h-3 text-sm relative left-[20px] bottom-1 flex z-2"></div>
+                <div className="w-[200px] bg-[#145A70] flex flex-col z-10">
+                  <button
+                    onClick={() => navigateReviewNovel()}
+                    className="w-full py-[10px] px-5 border-b border-[#689093] text-white hover:bg-[#213335]"
+                  >
+                    Review Truyện
+                  </button>
+                  <button
+                    onClick={() => navigateReviewFilm()}
+                    className="w-full py-[10px] px-5 text-white text-sm hover:bg-[#213335]"
+                  >
+                    Review Phim
+                  </button>
+                </div>
+              </div>
+            )}
           </button>
-          {review && (
-            <div className="absolute">
-              <input
-                type="text"
-                placeholder="Department Name"
-                className="input-add-item"
-              />
-              <button className="submit-add-item-button">Add</button>
-            </div>
-          )}
-          <button className="py-3 px-4 text-[#2790B0] text-sm">
+          <button
+            onMouseEnter={() => setNovelRead(true)}
+            onMouseLeave={() => setNovelRead(false)}
+            className="py-3 px-4 text-[#2790B0] text-sm hover:text-[#5e6f71]"
+          >
             <div className="flex items-center gap-2">
               Truyện đã đọc{" "}
               <svg
@@ -94,6 +114,25 @@ function Header() {
                 />
               </svg>
             </div>
+            {novelRead && (
+              <div className="absolute top-[44px] flex z-50">
+                <div className="rotate-45 bg-[#145A70] w-3 h-3 text-sm relative left-[20px] bottom-1 flex z-2"></div>
+                <div className="w-[200px] bg-[#145A70] flex flex-col z-10">
+                  <button
+                    onClick={() => navigateListModern()}
+                    className="w-full py-[10px] px-5 border-b border-[#689093] text-white hover:bg-[#213335]"
+                  >
+                    Hiện Đại
+                  </button>
+                  <button
+                    onClick={() => navigateListAncient()}
+                    className="w-full py-[10px] px-5 text-white text-sm hover:bg-[#213335]"
+                  >
+                    Cổ Đại
+                  </button>
+                </div>
+              </div>
+            )}
           </button>
         </div>
         <div className="w-full flex justify-center relative mt-[60px]">

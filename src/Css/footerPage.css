@@ -1,0 +1,13 @@
+.comments-form {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(209, 98, 33, 0.6) 0,
+    rgba(209, 98, 33, 0.6) 30px,
+    #fbf9ef 30px,
+    #fbf9ef 60px,
+    rgba(54, 133, 221, 0.6) 60px,
+    rgba(54, 133, 221, 0.6) 90px,
+    #fbf9ef 90px,
+    #fbf9ef 120px
+  );
+}

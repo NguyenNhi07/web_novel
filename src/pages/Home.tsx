@@ -18,7 +18,6 @@ function Home() {
           </div>
           <SideBar />
         </div>
-        <div className="h-[300px] mt-[60px]"></div>
       </div>
     </>
   );
