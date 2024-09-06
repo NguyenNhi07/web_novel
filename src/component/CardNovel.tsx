@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import FooterCard from "./FooterCard";
 
 function CardNovel() {
@@ -11,7 +12,7 @@ function CardNovel() {
           <span className="w-full text-[35px] text-[#666666]">
             List truyện Dân Quốc
           </span>
-          <span className="w-full text-lg text-[#B9B9B9]">
+          <span className="w-full text-lg text-[#B9B9B9] mb-[27px]">
             Đăng vào 27/05/2019
           </span>
         </div>
@@ -37,9 +38,12 @@ function CardNovel() {
             cách nôm na là thời mà đàn ông lúc thì để tóc dài tết đuôi sam, lúc
             thì cắt tóc ngắn mặc tây trang.
           </em>
-          <p className="text-lg text-[#B9B9B9] mt-[10px] mb-[27px]">
+          <Link
+            to={"/dan-quoc"}
+            className="text-lg text-[#B9B9B9] mt-[10px] mb-[27px] hover:cursor-pointer"
+          >
             Đọc tiếp →
-          </p>
+          </Link>
         </div>
         <FooterCard />
       </div>

@@ -34,56 +34,507 @@
     { "name": "Yêu Thầm" }
   ],
   "list_novel": [
-    { "name": "List truyện Cổ Đại Ngược" },
-    { "name": "List truyện Cán Bộ Cao Cấp" },
-    { "name": "List truyện Cổ Đại Sủng Hài" },
-    { "name": "List truyện Công Sở – Tổng Tài" },
-    { "name": "List truyện Cưới Trước Yêu Sau" },
-    { "name": "List truyện Dân Quốc" },
-    { "name": "List truyện Điền Văn" },
-    { "name": "List truyện Đồng Nhân" },
-    { "name": "List truyện Giả Incest" },
-    { "name": "List truyện Gương Vỡ Lại Lành" },
-    { "name": "List truyện Hắc Bang" },
-    { "name": "List truyện Hệ Thống" },
-    { "name": "List truyện Hiện Đại Ngược" },
-    { "name": "List truyện Hiện Đại Sủng" },
-    { "name": "List truyện Huyền Huyễn" },
-    { "name": "List truyện liên quan tới nghề Y" },
-    { "name": "List truyện Mạt Thế – Dị Giới – Viễn Tưởng – Tương Lai" },
-    { "name": "List truyện Mỹ Thực Văn (Đồ Ăn)" },
-    { "name": "List truyện Nam – Nữ Chính Không Hoàn Hảo (Tàn Tật)" },
-    { "name": "List truyện Nam – Nữ Chính Mắc Bệnh (Tâm Lý)" },
-    { "name": "List truyện Ngốc – Giả Ngốc" },
-    { "name": "List truyện Ngược HE" },
-    { "name": "List truyện Ngược Nam" },
-    { "name": "List truyện Nhân Thú" },
-    { "name": "List truyện Nhật Kí" },
-    { "name": "List truyện Nuôi Vợ Từ Bé (Con Dâu Nuôi Từ Bé)" },
-    { "name": "List truyện Nữ Cường" },
-    { "name": "List truyện Nữ Phẫn Nam Trang" },
-    { "name": "List truyện Nữ Phụ Văn" },
-    { "name": "List truyện Nữ Truy (Nữ theo đuổi Nam)" },
-    { "name": "List truyện Ngôn Tình Hiện Thực" },
-    { "name": "List truyện Oan Gia Ngõ Hẹp" },
-    { "name": "List truyện Quân Nhân" },
-    { "name": "List truyện SE (Sad Ending – Kết Buồn)" },
-    { "name": "List truyện Showbiz" },
-    { "name": "List truyện Sư Đồ Luyến (Thầy – Trò, Cô – Trò,…)" },
-    { "name": "List truyện Thanh Mai Trúc Mã" },
-    { "name": "List truyện Thanh Xuân Vườn Trường" },
-    { "name": "List truyện Trâu Già Gặm Cỏ Non (Nam hơn Nữ nhiều tuổi)" },
-    { "name": "List truyện Trinh Thám – Kinh Dị – Linh Dị" },
-    { "name": "List truyện Trọng Sinh – Trùng Sinh" },
-    { "name": "List truyện Tỷ Đệ Luyến (Nữ chính lớn tuổi hơn Nam chính)" },
-    { "name": "List truyện Võng Du" },
-    { "name": "List truyện Xuyên Không – Phản Xuyên" },
-    { "name": "List truyện Yêu Thầm (Thầm Mến)" }
+    { "name": "List truyện Dân Quốc", "link": "/dan-quoc" },
+    { "name": "List truyện Gương Vỡ Lại Lành", "link": "/guong-vo-lai-lanh" },
+    {
+      "name": "List truyện liên quan tới nghề Y",
+      "link": "https://chengduchengdu.wordpress.com/2018/02/27/list-truyen-bac-si/"
+    },
+    { "name": "List truyện Mỹ Thực Văn (Đồ Ăn)", "link": "/my-thuc" },
+    { "name": "List truyện Nữ Truy (Nữ theo đuổi Nam)", "link": "/nu-truy" },
+    { "name": "List truyện Ngôn Tình Hiện Thực", "link": "/hien-thuc" },
+    { "name": "List truyện Showbiz", "link": "/showbiz" }
   ],
   "list_phim": [
     { "name": "Dị Nhân" },
     { "name": "Điện Ảnh Hay" },
     { "name": "Siêu Anh Hùng" },
     { "name": "Học đường Trung Quốc" }
+  ],
+  "review_novel": [
+    {
+      "name": "Ảnh hậu đối mặt hằng ngày",
+      "author": "Ngã Yêu Thành Tiên",
+      "link": "https://onhocuahoai.wordpress.com/2018/10/21/review-truyen-anh-hau-doi-mat-hang-ngay-nga-yeu-thanh-tien/"
+    },
+    {
+      "name": "Con đường sủng hậu",
+      "author": "Tiếu Giai Nhân",
+      "link": "https://onhocuahoai.wordpress.com/2018/10/21/review-truyen-con-duong-sung-hau-tieu-giai-nhan/"
+    },
+    {
+      "name": "Đợi mưa tạnh",
+      "author": "Úy Không",
+      "link": "https://onhocuahoai.wordpress.com/2018/06/08/review-doi-mua-tanh-uy-khong/"
+    },
+    {
+      "name": "Em Mù Mới Yêu Anh",
+      "author": "Bản Lật Tử",
+      "link": "https://onhocuahoai.wordpress.com/2019/03/07/1984/"
+    },
+    {
+      "name": "Manh Sủng Ký ",
+      "author": "Lục Manh Tinh",
+      "link": "https://onhocuahoai.wordpress.com/2019/03/28/review-truyen-manh-sung-ky-luc-manh-tinh/"
+    },
+    {
+      "name": "Quận chúa thỉnh giá đáo",
+      "author": "Hoa Lý Tầm Hoan",
+      "link": "https://onhocuahoai.wordpress.com/2018/06/08/review-quan-chua-thinh-tinh-tao-hoa-ly-tam-hoan/"
+    },
+    {
+      "name": "Trùng Sinh Đi Tra Nam",
+      "author": "Du Tử Tuế Tuế",
+      "link": "https://onhocuahoai.wordpress.com/2019/02/04/review-truyen-trung-sinh-di-tra-nam-du-tu-tue-tue/"
+    },
+    {
+      "name": "Tứ Quý Cẩm",
+      "author": "Tứ Quý Cẩm",
+      "link": "https://onhocuahoai.wordpress.com/2019/02/03/review-truyen-tu-quy-cam-minh-nguyet-dang/"
+    }
+  ],
+  "review_film": [
+    {
+      "name": "Along with the Gods: The Two Worlds “Thử thách Thần chết: Giữa Hai Thế Giới”",
+      "type": "điện ảnh, viễn tưởng, thần thoại, tâm lý",
+      "imdb": "7.8",
+      "votes": "876"
+    },
+    {
+      "name": "Flipped “Lật Ngược”",
+      "type": "điện ảnh, tâm lý, tình cảm, HE",
+      "imdb": "7,7",
+      "votes": "73.418"
+    },
+    {
+      "name": "The Book of Henry “Quyển Sách Của Henry”",
+      "type": "điện ảnh, tâm lý, hình sự",
+      "imdb": "6.1",
+      "votes": "2,755"
+    },
+    {
+      "name": "Three Billboards Outside Ebbing Missouri “Ba Quảng Cáo Ngoài Trời Ở Missouri”",
+      "type": "điện ảnh, tâm lý, hình sự",
+      "imdb": "8.2",
+      "votes": "258,862"
+    },
+    {
+      "name": "To All the Boys I’ve Loved Before “Những Chàng Trai Năm Ấy”",
+      "type": "điện ảnh, tâm lý, tình cảm",
+      "imdb": "7,3",
+      "votes": "50,979"
+    }
+  ],
+  "novel_modern": [
+    {
+      "name": "Ảnh đế rất thích phát đường",
+      "author": "Bán Hạ Lương Lương",
+      "link": "https://lastella502.wordpress.com/2018/01/14/anh-de-thich-rai-duong/",
+      "linkRv": "",
+      "type": "Hiện đại, showbiz, 3S, HE"
+    },
+    {
+      "name": "Ảnh hậu đối mặt hằng ngày",
+      "author": "Ngã Yêu Thành Tiên",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=410629",
+      "linkRv": "https://www.facebook.com/tradutuuhau.tdth/photos/a.1626039780767187/1795937420444088/?type=3&theater",
+      "type": "Hiện đại, cổ xuyên kim, showbiz, 3S, HE"
+    },
+    {
+      "name": "Bạn Chanh",
+      "author": " Giả Oán Chúc",
+      "link": "https://nammeonho.wordpress.com/hd-ban-chanh-gia-oan-chuc/",
+      "linkRv": "https://www.facebook.com/ReviewNgonTinh0105/posts/2102229013392759",
+      "type": "Hiện đại, ngược thân, nữ chính là gái bán hoa,trước ngược sau sủng, HE"
+    },
+    {
+      "name": "Bói nhân duyên trên Taobao ",
+      "author": "Nghiên Nghiên Hạ Nhật",
+      "link": "https://luyun1911.wordpress.com/ta-o-taobao-tinh-nhan-duyen/",
+      "linkRv": "",
+      "type": "Ngôn tình, trọng sinh, 2S, dị năng, showbiz, sảng văn, HE"
+    },
+    {
+      "name": "Con đường theo đuổi nam thần",
+      "author": "Tống Cửu Cận",
+      "link": "https://jeongiehunnie.wordpress.com/2017/02/24/con-duong-theo-duoi-nam-than/",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/photos/a.2122324254753919/1816025005383847/?type=1&theater",
+      "type": "Hiện đại, showbiz, 2S, nam bác sĩ, nữ diễn viên, HE"
+    },
+    {
+      "name": "Chuyện Cũ Bạch Dương",
+      "author": "Trường Vũ Trụ",
+      "link": "https://www.facebook.com/pg/THUYLAMBOOK/photos/?tab=album&album_id=1488412951226482",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/posts/2107343039585374",
+      "type": "Hiện đại, đời thường, HE"
+    },
+    {
+      "name": "Danh môn độc sủng ",
+      "author": "Hoa Đào Dẫn ",
+      "link": "https://ngocphuongdao.wordpress.com/2017/01/05/danh-mon-doc-sung/",
+      "linkRv": "",
+      "type": "hiện đại, trùng sinh, YY nữ cường, 2S, showbiz, HE"
+    },
+    {
+      "name": "Đẹp trai là số 1",
+      "author": " Lục Mang Tinh",
+      "link": "https://www.facebook.com/pg/THUYLAMBOOK/photos/?tab=album&album_id=1448957065172071",
+      "linkRv": "https://rimiejung.wordpress.com/2017/09/26/review-dep-trai-la-so-1-luc-mang-tinh/",
+      "type": "Hiện đại, showbiz, nữ truy, 3S, nam bác sĩ, nữ diễn viên, HE"
+    },
+    {
+      "name": "Độc dược phòng bán vé ",
+      "author": "Ức Cẩm",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=358626",
+      "linkRv": "",
+      "type": "Hiện đại, showbiz, nữ diễn viên, sủng, HE"
+    },
+    {
+      "name": "Dợi mưa tạnh",
+      "author": "Uý Không",
+      "link": "https://joanmia.wordpress.com/doi-mua-tanh-uy-khong/",
+      "linkRv": "https://www.facebook.com/permalink.php?story_fbid=815319405320778&id=100005281787393",
+      "type": "Hiện đại, thầm mến, nhẹ nhàng, 2S, HE"
+    },
+    {
+      "name": "Dũa lệch dễ thương",
+      "author": "Sư Tiểu Trát",
+      "link": "https://www.wattpad.com/story/136077691-ho%C3%A0n-edit-%C4%91%C5%A9a-l%E1%BB%87ch-d%E1%BB%85-th%C6%B0%C6%A1ng",
+      "linkRv": "https://www.facebook.com/ReviewNgonTinh0105/posts/review_truy%E1%BB%87nreview_ng%C3%B4n_t%C3%ACnh%C4%91%C5%A9a-l%E1%BB%87ch-d%E1%BB%85-th%C6%B0%C6%A1ngt%C3%A1c-gi%E1%BA%A3-s%C6%B0-ti%E1%BB%83u-tr%C3%A1tth%E1%BB%83-lo%E1%BA%A1i-hi%E1%BB%87n/2118254685123525/",
+      "type": "Hiện đại, yêu giả thành thật, hài, nam độc mồm, song xử, cực sủng, HE"
+    },
+    {
+      "name": "Gen di truyền",
+      "author": "Dạ Tử Vũ",
+      "link": "http://tamvunguyetlau.com/2016/02/16/gen-di-truyen-da-tu-vu/",
+      "linkRv": "",
+      "type": "2S, ngọt, robot, tương lai, khoa học viễn tưởng xuyên qua thời không, HE"
+    },
+    {
+      "name": "Giới hạn của tuổi trẻ",
+      "author": "Hồng Thiêu Kê Thoái",
+      "link": "https://chengduchengdu.wordpress.com/2017/02/18/gioi-han-cua-tuoi-tre-thanh-xuan-cuc-han/",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/photos/a.2122319244754420/2012243599095319/?type=3&theater",
+      "type": "HĐ, thanh xuân vườn trường, HE"
+    },
+    {
+      "name": "Hoàng ân cuồn cuộn",
+      "author": "Tuỳ Hầu Châu",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=398536&tn=hoang-an-cuon-cuon-tuy-hau-chau",
+      "linkRv": "",
+      "type": "Cổ đại xuyên về hiện đại, sủng, không sạch, HE"
+    },
+    {
+      "name": "Hươu lạc lối",
+      "author": "Bạc Hà Mê",
+      "link": "https://khoangkhong.co/huou-lac-loi/",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/posts/review-h%C6%B0%C6%A1u-l%E1%BA%A1c-l%E1%BB%91it%C3%A1c-gi%E1%BA%A3-b%E1%BA%A1c-h%C3%A0-m%C3%AAth%E1%BB%83-lo%E1%BA%A1i-hi%E1%BB%87n-%C4%91%E1%BA%A1i-nam-ph%E1%BA%A1m-nh%C3%A2n-n%E1%BB%AF-truy-het%C3%AC/2248349222151421/",
+      "type": "hiện đại, nữ truy, nam phạm nhân, 3S, HE"
+    },
+    {
+      "name": "Khi mây đen gặp trăng sáng",
+      "author": "Đinh Mặc",
+      "link": "https://www.facebook.com/pg/dingmocorner/photos/?tab=album&album_id=330662100713529",
+      "linkRv": "",
+      "type": "Hiện đại, huyền huyễn, HE"
+    },
+    {
+      "name": "Ly Hồn Ký ",
+      "author": "Thanh Thanh Lục La Quần",
+      "link": "https://liethoacac.com/ly-hon-ky-thanh-thanh-luc-la-quan.html#login-form",
+      "linkRv": "https://liethoacac.com/review-ly-hon-ky.html",
+      "type": "Hiện đại, huyền huyễn, hài hước, 3S, HE"
+    },
+    {
+      "name": "Một giây rung động, cả đời không quên",
+      "author": "Vô Xứ Khả Đào",
+      "link": "https://rainyy.wordpress.com/mot-giay-rung-dong-ca-doi-khong-quen-vo-xu-kha-dao/",
+      "linkRv": "https://xemnhamnho2307.wordpress.com/2017/10/02/list-truyen-21-30/",
+      "type": "Hiện đại, ngược nữ, xong xử, HE"
+    },
+    {
+      "name": "Một tấc thời gian",
+      "author": "Ôn Thanh Hoan",
+      "link": "https://www.wattpad.com/504438140-edit-ho%C3%A0n-m%E1%BB%99t-t%E1%BA%A5c-th%E1%BB%9Di-gian-%C3%B4n-thanh-hoan-gi%E1%BB%9Bi",
+      "linkRv": "",
+      "type": "Hiện đại, 2S, có chút kí ức kiếp trước, nam bác sĩ với nữ tác giả, HE"
+    },
+    {
+      "name": "Ngược chiều ánh sáng tìm đến yêu em",
+      "author": "Nhan Nguyệt Khê",
+      "link": "https://gorjessspazer.wordpress.com/2017/01/05/nguoc-chieu-anh-sang-tim-den-yeu-em-nhan-nguyet-khe/",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/posts/review-ng%C6%B0%E1%BB%A3c-chi%E1%BB%81u-%C3%A1nh-s%C3%A1ng-t%C3%ACm-%C4%91%E1%BA%BFn-y%C3%AAu-emt%C3%A1c-gi%E1%BA%A3-nhan-nguy%E1%BB%87t-kh%C3%AAth%E1%BB%83-l/2002004120119267/",
+      "type": "Hiện đại, âm kém dương sai*, HE"
+    },
+    {
+      "name": "Phồn Giản",
+      "author": "Quân Ước",
+      "link": "https://www.wattpad.com/story/111188567-ph%E1%BB%93n-gi%E1%BA%A3n-qu%C3%A2n-%C6%B0%E1%BB%9Bc",
+      "linkRv": "https://xemnhamnho2307.wordpress.com/2017/07/02/review-phon-gian-quan-uoc/",
+      "type": "Hiện đại, đời thường, HE"
+    },
+    {
+      "name": "Sinh mệnh thứ bảy",
+      "author": "Kim Bính",
+      "link": "https://www.facebook.com/pg/Rabbitlyn/photos/?tab=album&album_id=2055433421361027",
+      "linkRv": "https://www.facebook.com/Rabbitlyn/photos/a.1923356861235351/2170664716504563/?type=1&theater",
+      "type": "Hiện đại, sạch, sủng, HE"
+    },
+    {
+      "name": "Thẩm tiên sinh, Cố phu nhân",
+      "author": "Ôn Sưởng",
+      "link": "https://khoangkhong.co/tham-tien-sinh-co-phu-nhan/",
+      "linkRv": "https://www.facebook.com/ReviewNgonTinh0105/posts/2065025363779791",
+      "type": "Hiện đại, nhẹ nhàng, ấm áp, 2S, HE"
+    },
+    {
+      "name": "Tiến về phía nhau",
+      "author": "Mạch Ngôn Xuyên",
+      "link": "https://rainyy.wordpress.com/tien-ve-phia-nhau-mach-ngon-xuyen/",
+      "linkRv": "https://www.facebook.com/hoinhieuchu/posts/2121520781500933",
+      "type": "Hiện đại, showbiz, ảnh đế - diễn viên mới, nữ truy, 3S, HE"
+    }
+  ],
+  "novel_ancient": [
+    {
+      "name": "Bát Bảo Trang",
+      "author": "Nguyệt Hạ Điệp Ảnh",
+      "link": "https://hoatuyethouse.wordpress.com/bat-bao-trang-nguyet-ha-diep-anh/",
+      "linkRv": "https://leosingblog.wordpress.com/2017/10/04/review-bat-bao-trang-nguyet-ha-diep-anh/",
+      "type": "Xuyên không, cung đình hầu tước, 2s, nhẹ nhàng, HE"
+    },
+    {
+      "name": "Bất tiếu Phù Đồ",
+      "author": "Tuyết Nguyên U Linh",
+      "link": "https://haogiapro.wordpress.com/truyen-edit/xk-bat-tieu-phu-do/comment-page-1/",
+      "linkRv": "https://valeriebui.wordpress.com/2017/02/10/review-bat-tieu-phu-do-tuyet-nguyen-u-linh/",
+      "type": "Xuyên không, nữ phẫn nam trang, HE"
+    },
+    {
+      "name": "Bệ hạ thỉnh tự trọng",
+      "author": " Tửu Tiểu Thất",
+      "link": "https://greyphan.com/list-truy%E1%BB%87n/cd-be-ha-xin-tu-trong/",
+      "linkRv": "https://davu308blog.wordpress.com/2016/09/30/review-be-ha-thinh-tu-trong-tuu-tieu-that/",
+      "type": "Cổ đại, hài hước, nữ phẫn thái giám, 18+, HE"
+    },
+    {
+      "name": "Bình tĩnh làm phi",
+      "author": "Phong Quá Thuỷ Vô Ngân",
+      "link": "https://www.wattpad.com/story/103188197-edit-ho%C3%A0n-b%C3%ACnh-t%C4%A9nh-l%C3%A0m-phi-phong-qu%C3%A1-th%E1%BB%A7y-v%C3%B4",
+      "linkRv": "https://ngocdongphieu.wordpress.com/2015/10/15/spoiler-binh-tinh-vi-phi/",
+      "type": "Xuyên không, cung đấu, oan gia, hài, HE"
+    },
+    {
+      "name": "Con đường sủng hậu",
+      "author": "Tiếu Giai Nhân",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=405443&tn=con-duong-sung-hau-tieu-giai-nhan",
+      "linkRv": "",
+      "type": " Cổ đại, trọng sinh, cung đấu, gia đấu, HE"
+    },
+    {
+      "name": "Công chúa lảng vảng, quần thần cẩn thận",
+      "author": " Thiên Như Ngọc",
+      "link": "https://tucaumuaha.wordpress.com/about/truyen-hoan/cong-chua-lang-vangquan-than-can-than/",
+      "linkRv": "",
+      "type": "Cổ đại, cung đình, nữ đế, nam - nữ cường, HE"
+    },
+    {
+      "name": "Mỹ nhân nan giá ",
+      "author": "Thị Kim",
+      "link": "https://kunnhi.wordpress.com/c%E1%BB%95-d%E1%BA%A1i/my-nhan-nan-gia-my-nhan-kho-ga/?fbclid=IwAR277zfgA2YMJ6QjrW5hJWjgo0DBnB2MJppjHq-QPojBVhj9-LsykkxBuQU",
+      "linkRv": "https://www.facebook.com/ReviewNgonTinh0105/photos/a.1770951676520496/1963815420567453?type=3&sfns=0",
+      "type": "Cổ đại,cung đấu, 3S, HE"
+    },
+    {
+      "name": "Trùng sinh sủng hậu ",
+      "author": "Cửu Lam",
+      "link": "https://hoatuyethouse.wordpress.com/2017/08/16/1846/",
+      "linkRv": "https://hoatuyethouse.wordpress.com/2017/08/08/trong-sinh-sung-hau/",
+      "type": "Trọng sinh, 2s, tranh giành quyền lực, gia đấu, HE"
+    }
+  ],
+  "list-dan-quoc": [
+    {
+      "name": "Chuyện cũ ở thành Cù An",
+      "author": "Tần Thù Nhiên",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=364590",
+      "progress": "full"
+    },
+    {
+      "name": "Diễn Trò",
+      "author": "Đông Nhật Anh Đào",
+      "link": "https://botngoaihanhtinh.blog/2019/07/17/dan-quoc-dien-tro-dong-nhat-anh-dao/",
+      "progress": "on going"
+    },
+    {
+      "name": "Hải thượng hoa đình",
+      "author": "Bồng Lai Khách",
+      "link": "https://runghophach.com/2019/01/30/hai-thuong-hoa-dinh-bong-lai-khach/",
+      "progress": "full"
+    },
+    {
+      "name": "Hồng Đậu",
+      "author": "Ngưng Lũng",
+      "link": "https://liethoacac.com/hong-dau-ngung-lung.html",
+      "progress": "full"
+    },
+    {
+      "name": "Khom lưng",
+      "author": "Bồng Lai Khách",
+      "link": "http://thuvienngontinh.com/truyen/khom-lung/",
+      "progress": "full"
+    },
+    {
+      "name": "Không kịp nói yêu em",
+      "author": "Phỉ Ngã Tư Tồn",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=302794&tn=khong-kip-noi-yeu-em%21-phi-nga-tu-ton",
+      "progress": "full"
+    },
+    {
+      "name": "Kim sơn hồ điệp",
+      "author": "Duy Đao Bách Tích",
+      "link": "https://gorjessspazer.wordpress.com/2019/04/01/kim-son-ho-diep-duy-dao-bach-tich/",
+      "progress": "full"
+    },
+    {
+      "name": "Là yêu hay hận",
+      "author": "Linh Hy",
+      "link": "https://forum.kites.vn/forum.php?mod=viewthread&tid=429905",
+      "progress": "full"
+    },
+    {
+      "name": "Loạn thế phiêu diêu khó như ý",
+      "author": "Hồi Sênh",
+      "link": "https://lynnloveall.wordpress.com/phong-vip/loan-the-phieu-dieu-kho-nhu-y-hoi-senh-hoan/?fbclid=IwAR04Yf9qsOaPZKx9yp4amMmCcPtL9JszcrAVGfqIiPVNbBYDWCoWLgixhOs",
+      "progress": "đoản, full"
+    },
+    {
+      "name": "Mười hai năm, kịch cố nhân",
+      "author": "Mặc Bảo Phi Bảo",
+      "link": "",
+      "progress": "đã xuất bản"
+    },
+    {
+      "name": "Mỹ thực tại dân quốc",
+      "author": "Nguyệt Chiếu Khê",
+      "link": "https://www.wattpad.com/story/146964472-ho%C3%A0n-edit-m%E1%BB%B9-th%E1%BB%B1c-t%E1%BA%A1i-d%C3%A2n-qu%E1%BB%91c-nguy%E1%BB%87t-chi%E1%BA%BFu-kh%C3%AA",
+      "progress": "full"
+    },
+    {
+      "name": "Năm tháng rực rỡ",
+      "author": "Na Thù",
+      "link": "https://khoangkhong.co/nam-thang-ruc-ro/",
+      "progress": "full"
+    },
+    {
+      "name": "Nghê thường thiết y",
+      "author": "Thanh Ca Nhất Mảnh",
+      "link": "https://daohoatiencanh.wordpress.com/%E2%99%A5-hoan-%E2%99%A5/can-dai/nghe-th%C6%B0%E1%BB%9Dng-thi%E1%BA%BFt-y/",
+      "progress": "full"
+    },
+    {
+      "name": "Sương mù vây thành",
+      "author": "Phỉ Ngã Tư Tồn",
+      "link": "",
+      "progress": ""
+    },
+    {
+      "name": "Thiện nam tín nữ",
+      "author": "Bộ Vi Lan",
+      "link": "https://cuumotsach.com/threads/hoan-thien-nam-tin-nu-bo-vi-lan.1336/",
+      "progress": "full"
+    },
+    {
+      "name": "Trở về năm 1981",
+      "author": "Tú Cẩm",
+      "link": "https://diendanlequydon.com/viewtopic.php?t=306562",
+      "progress": "full"
+    },
+    {
+      "name": "Trường phong có thư",
+      "author": "Ôn Cừu",
+      "link": "https://botngoaihanhtinh.blog/2019/01/10/dan-quoc-dai-phong-co-thu-on-cuu/",
+      "progress": "đoản, full"
+    },
+    {
+      "name": "Vân Tấn Y Hương",
+      "author": "Tiếu Giai Nhân",
+      "link": "https://dembuon.vn/threads/edit-van-tan-y-huong-tieu-giai-nhan.26708/",
+      "progress": "full"
+    },
+    {
+      "name": "Vị khách lúc nửa đêm",
+      "author": "Triệu Hi Chi",
+      "link": "https://thanhthoigian.wordpress.com/da-hoan-thanh/hien-dai/dq-vi-khach-luc-nua-dem-trieu-hi-chi/",
+      "progress": "full"
+    }
+  ],
+  "list-guong-vo-lai-lanh": [
+    {
+      "name": "Anh muốn cùng em đi tới cuối cuộc đời",
+      "author": "Thị Kim",
+      "link": "https://www.wattpad.com/story/137012428",
+      "progress": "full"
+    },
+    {
+      "name": "Cuối cầu vồng là em",
+      "author": "Tam Nguyệt Đào Hoa Tuyết",
+      "link": "https://punyleland.wordpress.com/2019/08/05/cuoi-cau-vong-la-em-tam-nguyet-dao-hoa-tuyet/",
+      "progress": "truyện ngắn, full"
+    },
+    {
+      "name": "Đừng nên gặp lại",
+      "author": "Tô Lưu",
+      "link": "https://greenhousenovels.com/dung-nen-gap-lai-to-luu-gioi-thieu-truyen/",
+      "progress": "full"
+    },
+    {
+      "name": "Hoang đường",
+      "author": "Phong Tử Tam Tam",
+      "link": "https://www.wattpad.com/story/112456278",
+      "progress": "cẩu huyết, full"
+    },
+    {
+      "name": "Khống chế thành nghiện",
+      "author": "Tây Tây Đặc",
+      "link": "http://www.tangthuvien.vn/forum/showthread.php?t=134775",
+      "progress": "full"
+    },
+    {
+      "name": "Năm xuân thứ hai mươi tám",
+      "author": "Nhĩ Đông Thố Tử",
+      "link": "https://www.wattpad.com/624667504",
+      "progress": "full"
+    },
+    {
+      "name": "Nghe nói em thích tôi",
+      "author": "Cát Tường Dạ",
+      "link": "https://www.wattpad.com/story/128127963",
+      "progress": "full"
+    },
+    {
+      "name": "Phía sau áo cưới",
+      "author": "Phong Tử Tam Tam",
+      "link": "https://www.wattpad.com/story/154271065",
+      "progress": "full"
+    },
+    {
+      "name": "Quả ngọt năm tháng",
+      "author": "Mạch Ngôn Xuyên",
+      "link": "https://hoaiduong991.wordpress.com/qua-ngot/",
+      "progress": "full"
+    },
+    {
+      "name": "Quãng thời gian tươi đẹp nhất của chúng ta",
+      "author": "Tuỳ Hầu Châu",
+      "link": "http://diendanlequydon.com/viewtopic.php?t=374750",
+      "progress": "full"
+    },
+    {
+      "name": "Thống ngưỡng",
+      "author": "Hoàng Tam",
+      "link": "https://larajean1707.wordpress.com/2019/02/07/thong-nguong-hoang-tam/",
+      "progress": "full"
+    }
   ]
 }

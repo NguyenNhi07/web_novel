@@ -1,4 +1,45 @@
 function FooterCard() {
+  const sharePage = (platform: any) => {
+    const url = window.location.href;
+    let shareUrl = "";
+
+    switch (platform) {
+      case "facebook":
+        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          url
+        )}`;
+        break;
+      case "twitter":
+        shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+          url
+        )}&text=Check%20this%20out!`;
+        break;
+      case "tumblr":
+        shareUrl = `https://www.tumblr.com/share/link?url=${encodeURIComponent(
+          url
+        )}&name=Check%20this%20out!`;
+        break;
+      case "pinterest":
+        shareUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
+          url
+        )}&media=https://example.com/image.jpg&description=Check%20this%20out!`;
+        break;
+      case "email":
+        shareUrl = `mailto:?subject=Check%20this%20out!&body=${encodeURIComponent(
+          url
+        )}`;
+        break;
+      case "repost":
+        shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+          url
+        )}&text=Check%20this%20out!`;
+        break;
+      default:
+        return;
+    }
+
+    window.open(shareUrl, "share-dialog", "width=800,height=600");
+  };
   return (
     <>
       <div className="w-full mt-[27px]">
@@ -7,6 +48,7 @@ function FooterCard() {
         </div>
         <div className="flex gap-2 mb-4">
           <svg
+            onClick={() => sharePage("twitter")}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -34,6 +76,7 @@ function FooterCard() {
           </svg>
 
           <svg
+            onClick={() => sharePage("facebook")}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -52,6 +95,7 @@ function FooterCard() {
           </svg>
 
           <svg
+            onClick={() => sharePage("tumblr")}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -66,6 +110,7 @@ function FooterCard() {
           </svg>
 
           <svg
+            onClick={() => sharePage("pinterest")}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -82,6 +127,7 @@ function FooterCard() {
           </svg>
 
           <svg
+            onClick={() => sharePage("email")}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -118,7 +164,10 @@ function FooterCard() {
                 stroke-linejoin="round"
               />
             </svg>
-            <span className="font-medium text-[#2C3338] leading-[17.69px] text-[13px]">
+            <span
+              onClick={() => sharePage("repost")}
+              className="font-medium text-[#2C3338] leading-[17.69px] text-[13px] hover:cursor-pointer"
+            >
               Đăng lại
             </span>
           </div>
@@ -146,7 +195,15 @@ function FooterCard() {
                 </clipPath>
               </defs>
             </svg>
-            <span className="font-medium text-[#2C3338] leading-[17.69px] text-[13px]">
+            <span
+              data-href={window.location.href}
+              data-width=""
+              data-layout="standard"
+              data-action="like"
+              data-size="small"
+              data-share="true"
+              className="font-medium text-[#2C3338] leading-[17.69px] text-[13px] hover:cursor-pointer"
+            >
               Thích
             </span>
           </div>

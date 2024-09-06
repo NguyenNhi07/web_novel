@@ -5,6 +5,7 @@ import axios from "axios";
 import FooterCard from "../component/FooterCard";
 import FooterPage from "../component/FooterPage";
 import "../Css/home.css";
+import { Link } from "react-router-dom";
 
 function ListNovel() {
   const [listNovel, setListNovel] = useState<any[]>([]);
@@ -23,7 +24,7 @@ function ListNovel() {
     <>
       <div className="body-content h-full">
         <Header />
-        <div className="flex justify-center gap-28">
+        <div className="flex flex-col xl:flex-row justify-center xl:gap-28 gap-[30px]">
           <div className="flex flex-col items-center">
             <div className="bg-white w-[800px]">
               <div className="w-full px-[10px] pt-[10px]">
@@ -56,9 +57,14 @@ function ListNovel() {
                   <div className="p-[10px] mx-[10px] mb-[10px] bg-[#FFFFFFB3] rounded-[25px] flex flex-col gap-[27px]">
                     {listNovel.map((item, index) => (
                       <div key={index}>
-                        <p className="mb-[27px] text-lg font-bold">
-                          {item.name}
-                        </p>
+                        <div className="mb-[27px]">
+                          <Link
+                            to={item.link}
+                            className="text-lg underline hover:no-underline font-bold hover:cursor-pointer"
+                          >
+                            {item.name}
+                          </Link>
+                        </div>
                         <img
                           src="https://dreamsiscoming.files.wordpress.com/2013/06/60618-tk17.gif?w=840"
                           alt=""

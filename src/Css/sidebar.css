@@ -15,3 +15,10 @@
   background-size: 20px 20px;
   background-color: #98d1e6;
 }
+
+@media (max-width: 1300px) {
+  .custom-class {
+    width: 100%;
+    align-items: center;
+  }
+}

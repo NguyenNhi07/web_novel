@@ -10,7 +10,7 @@ function Home() {
     <>
       <div className="body-content h-full">
         <Header />
-        <div className="flex justify-center gap-28">
+        <div className="flex flex-col xl:flex-row justify-center xl:gap-28 gap-[30px]">
           <div className="flex flex-col gap-[121px] items-center">
             <Introduction />
             <CardFlim />

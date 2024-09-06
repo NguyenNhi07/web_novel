@@ -22,8 +22,8 @@ function SideBar() {
 
   return (
     <>
-      <div className="flex flex-col">
-        <div className="grid-lines p-10 bg-[#f9f6e7] w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] mb-6">
+      <div className="flex flex-col custom-class">
+        <div className="grid-lines p-10 bg-[#f9f6e7] w-[500px] xl:w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] mb-6">
           <div className="mb-[21px] text-[#4E4D4A] text-[25px] leading-[45px]">
             <span>Tìm kiếm (≖ᴗ≖✿)</span>
           </div>
@@ -49,7 +49,7 @@ function SideBar() {
           </form>
         </div>
 
-        <div className="grid-lines-two w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] p-10 mb-6 bg-[#98d1e6] text-[#0F465B]">
+        <div className="grid-lines-two w-[500px] xl:w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] p-10 mb-6 bg-[#98d1e6] text-[#0F465B]">
           <div className="text-[25px] mb-[20px]">Thư viện (๑✧∀✧๑)</div>
           <div className="flex flex-col gap-[5px] my-[5px] text-base items-start leading-10">
             <button>List Phim</button>
@@ -60,7 +60,7 @@ function SideBar() {
           </div>
         </div>
 
-        <div className="w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] p-10 bg-[#dbe6ca] text-[#4A572D]">
+        <div className="w-[500px] xl:w-[360px] shadow-[1px_1px_2px_rgba(0,0,0,0.1)] p-10 bg-[#dbe6ca] text-[#4A572D]">
           <div className="text-[25px] mb-[20px]">Thẻ (๑˃́ꇴ˂̀๑)</div>
           <div className="flex flex-wrap gap-[3px]">
             {tags.map((tag, index) => (
