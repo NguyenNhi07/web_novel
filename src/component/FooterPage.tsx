@@ -149,7 +149,7 @@ function FooterCard() {
                 {c.replies.length > 0 && (
                   <div className="mt-10 ml-8">
                     {c.replies.map((r, replyIndex) => (
-                      <div key={replyIndex} className="flex gap-4">
+                      <div key={replyIndex} className="flex gap-4 mb-4">
                         <img
                           className="w-[65px] h-[65px] rounded-full"
                           src="https://1.gravatar.com/avatar/a1b64da80823a687a7c81ab3cf84a7f792244dee9126f280aef5835fc347a8d2?s=100&d=monsterid&r=G"
